@@ -1,6 +1,9 @@
+body p{
+	color: green;
+}
 body{
 	background-color: black;
-	color: white;
+	color: white !important;
 	font-family: Verdana;
 }
 
@@ -8,6 +11,9 @@ h1 {
 	font-family: Arial;
 }
 
+p{
+	color: blue;
+}
 a {
 	color: inherit;
 }
@@ -15,4 +21,7 @@ a {
 div{
 	margin-top: 10px;
 	margin-left: 20px;
+}
+body{
+	color: red;
 }
