@@ -3,23 +3,18 @@ body{
 	font-family: Verdana;
 }
 
-.resaltado{
-	background-color: yellow;
-	color: black;
+input[name^=email]{
+	background-color: #eeeeee;
 }
 
-#menu-principal{
-	padding: 10px 0px;
+p:nth-child(3) {
+	color: red;
 }
 
-footer{
-	border-top: solid 1px black;
-	padding-top: 10px;
-	text-align: center;
+p, label{
+	font-family: Tahoma;
 }
 
-h1.titulo{
-	background-color: aliceblue;
-	text-align: center;
-	padding: 10px;
+p > textarea{
+	width: 200px;
 }

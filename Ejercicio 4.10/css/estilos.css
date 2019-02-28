@@ -1,0 +1,19 @@
+body{
+  margin: 20px;
+}
+input[name^=email]{
+  background-color: #eeeeee
+}
+p, label{
+	font-family: Tahoma;
+  font-style: italic;
+  font-size: 15;
+}
+#textarea{
+	width: 200px;
+}
+option{
+  font-family: arial;
+  font-size: 15;
+  background-color: grey;
+}
