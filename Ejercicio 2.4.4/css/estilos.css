@@ -1,6 +1,11 @@
+@font-face {
+	font-family: "FuenteLato";
+	src:"url(../fuentes/Lato-Regular.ttf)");
+}
+
 body{
 	margin: 20px;
-	font-family: Verdana;
+	font-family: Lora; Verdana;
 }
 
 .resaltado{
@@ -10,7 +15,9 @@ body{
 
 #menu-principal{
 	padding: 10px 0px;
-}
+	font-family: FuenteLato;
+	font-style: italic;
+	}
 
 footer{
 	border-top: solid 1px black;
@@ -21,5 +28,7 @@ footer{
 h1.titulo{
 	background-color: aliceblue;
 	text-align: center;
+	font-variant: small-caps;
+	font-family: FuenteLato;
 	padding: 10px;
 }
